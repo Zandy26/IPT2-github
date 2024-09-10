@@ -5,6 +5,13 @@ public class Calculator {
         return a + b;
     }
 
+	 // Method for Subtraction
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+
+
+
 
 
 
