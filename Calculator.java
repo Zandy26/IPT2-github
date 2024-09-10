@@ -16,6 +16,15 @@ public class Calculator {
     }	
 
 
+    // Method for Division
+    public int divide(int a, int b) {
+        if (b == 0) {
+            throw new ArithmeticException("Cannot divide by zero!");
+        }
+        return a / b;
+    }
+
+
 
 
 
